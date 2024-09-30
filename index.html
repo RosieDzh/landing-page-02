@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name of your festival</title>
+     <!-- SEO Meta Tags -->
+
+     <meta name="description"
+     content="Join Tomorrowland 2024, the world's most iconic electronic music festival, featuring top DJs, breathtaking stages, and an unforgettable experience. Get tickets now!">
+ <meta name="keywords"
+     content="Tomorrowland, music festival, electronic music, top DJs, 2024 festival, festival tickets, EDM, dance music, Belgium festival">
+ <meta name="author" content="Tomorrowland Official">
+ <meta name="robots" content="index, follow">
+
+ <!-- Open Graph / Facebook Meta Tags -->
+ <meta property="og:title" content="Tomorrowland Festival 2024 - Official Website">
+ <meta property="og:description"
+     content="Join Tomorrowland 2024, the world's most iconic electronic music festival. Featuring top DJs, breathtaking stages, and unforgettable experiences.">
+ <meta property="og:image" content="https://www.tomorrowland.com/assets/images/tomorrowland-2024-banner.jpg">
+ <meta property="og:url" content="https://www.tomorrowland.com">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="Tomorrowland Official">
+ <meta property="og:locale" content="en_US">
+
+ <!-- Twitter Meta Tags -->
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:title" content="Tomorrowland Festival 2024 - Official Website">
+ <meta name="twitter:description"
+     content="Don't miss Tomorrowland 2024! The ultimate electronic music festival experience. Tickets available now.">
+ <meta name="twitter:image" content="https://www.tomorrowland.com/assets/images/tomorrowland-2024-banner.jpg">
+ <meta name="twitter:site" content="@Tomorrowland">
+ <meta name="twitter:creator" content="@Tomorrowland">
+
+ <!-- Favicon -->
+ <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts - Playfair -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" 
+    rel="stylesheet">
+
+
+ <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">         
+</head>
+
+<body>          
+    <!-- Navigation Bar CTRL / -->  
+     <header>
+        <nav class="navbar">
+         <div class="logo">
+            <img src="./images/logo lol.png" alt="LollaPalooza festival logo" height="32"> 
+         </div>
+         <div class="menu">
+            <a href="#section1">Home</a> 
+            <a href="#section2">About</a>     
+            <a href="#section3">Services</a> 
+            <a href="#section4">Contact</a>
+          </div>
+          <div class="burger-menu" onclick="toggleMenu()">&#9776;</div> 
+        </nav>
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#section1" onclick="closeMenu()">Home</a> 
+            <a href="#section2" onclick="closeMenu()">About</a>  
+            <a href="#section3" onclick="closeMenu()">Services</a> 
+            <a href="#section4" onclick="closeMenu()">Contact</a>  
+        </div>
+     </header>
+
+
+     <!-- Hero Section  / -->
+     <section id="hero">
+        <img src="./images/hero-image.crop.webp" alt="Hero image" class="hero-image">
+        <div class="hero-text">
+            <h1>LollaPalooza</h1>
+            <button class="cta-button">Buy Tickets</button>
+        </div>
+     </section>
+
+     <!-- Sections with Anchor links  -->
+      <section id="secton1">
+        <h2>LollaPalooza Berlin Festival</h2>
+        <p>BE FIRST TO KNOW ABOUT THE 2025 LINEUP, TICKETS & OTHER FESTIVAL UPDATES</p>
+        <p>The Lollapalooza festival concept has been exported to Chile, Argentina and Brazil since 2010. With the "Kidzapalooza" a small festival of its own is planned for families and children.</p>
+       
+        <!-- __Start of Carousel__  -->
+    <div class="carousel-container">
+        <!-- Image slides -->
+        <div class="carousel-slide">
+            <img src="./images/hero-image01.crop.webp" alt="Image 1">
+            <img src="./images/hero-image02.webp" alt="Image 2">
+            <img src="./images/hero-image03.webp" alt="Image 3">
+        </div>
+
+        <!-- Left and right arrows -->
+        <div class="carousel-navigation">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+
+        <!-- Bullet points indicators -->
+        <div class="carousel-bullets">
+            <span class="bullet"></span>
+            <span class="bullet"></span>
+            <span class="bullet"></span>
+        </div>
+    </div>
+
+    <!-- External JS file for the carousel -->
+    <script src="./script-carousel.js"></script>
+
+     <!-- __End of Carousel__ -->
+
+      </section>
+
+      <section id="section2">
+        <h2>Services</h2>
+        <div class="web-cards">
+
+            <!-- Cards  --> 
+            <div class="card">
+                <img src="./images/card.webp" alt="Music band">
+
+                <div class="info">
+                    <h3>Get Tickets</h3>
+                    <p>LollaPalooza tickets & INFO</p>
+                    <button type="button" class="cta-button" onclick="alert('Card clicked')">Read more</button>
+                </div>
+
+            </div>
+            <!-- Cards  --> 
+            <div class="card">
+                <img src="./images/card.webp" alt="Music band">
+
+                <div class="info">
+                    <h3>Get Packages</h3>
+                    <p>Global Jurney Travel Packages</p>
+                    <button type="button" class="cta-button" onclick="alert('Card clicked')">Read more</button>
+                </div>
+
+            </div>
+            <!-- Cards  --> 
+            <div class="card">
+                <img src="./images/card.webp" alt="Music band">
+
+                <div class="info">
+                    <h3>Registration</h3>
+                    <p>Register now for exclusive access to the Pre-Sale festivals</p>
+                    <button type="button" class="cta-button" onclick="alert('Card clicked')">Read more</button>
+                </div>
+
+            </div>
+        </div>
+      </section >
+
+    <section id="section3">
+    <h3>CONTACT US</h3>
+    <p>Reach out to more information.</p>
+
+    <h3>Video</h3>
+    <div class="video-wrapper">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KQE29az48gM?si=zidhSD5Kas_25auF&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     </div>
+    
+    </section>
+
+    <section id="acommodation">
+        <div class="hotel">Hotel Berlin</div>
+        <div class="tent">Olympic Park & Olimpic Stadium</div>
+        
+    </section>
+
+    <!-- Footer  -->
+    <footer>
+    <div class="footer-content">
+        <div class="social-media">
+            <a href="https://www.facebook.com/lollapalooza"><img src="./images/imageF.png" alt="Facebook" height="16"></a>
+            <a href="https://www.instagram.com/lollapalooza/"><img src="./images/imageI.png" alt="Instagram" height="16"></a>
+            <a href="https://x.com/lollapalooza"><img src="./images/imageT.png" alt="Twitter" height="16"></a>
+            <a href="https://www.youtube.com/@lollapalooza"><img src="./images/imageyt.png" alt="YouTube" height="16"></a>
+            
+        
+        </div>
+        <p>&copy; 2024 Your Company. All rights reserved</p>
+
+    </div>
+</footer>
+<!-- Cookie  Popup  -->
+ <div id="cookie-popup" class="cookie-popup">
+    <p>This website uses cookies to ensure you get the best experience 
+        <a href="#">Learn more</a>
+    </p> 
+
+    <button onclick="acceptCookies()">Accept</button>
+ </div>
+ <script src="./scripts.js">
+    
+ </script>
+</body>
+
+</html>
